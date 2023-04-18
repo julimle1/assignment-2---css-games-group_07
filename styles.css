@@ -8,6 +8,7 @@ body {
 #container {
     display: flex;
     justify-content: center;
+    
 }
 
 #grid {
@@ -40,4 +41,22 @@ h1 {
 .card:hover {
     width: 0;
     
+}
+
+.how-to-play {
+    margin-top:50px;
+    bottom:0px;
+    width: 60%;
+    margin:0 auto;
+}
+
+.how-to-play h2 {
+    font-size: 20px;
+   text-align: center;
+    
+}
+
+.how-to-play li {
+    font-size: 17px;
+    margin-bottom: 5px;
 }
