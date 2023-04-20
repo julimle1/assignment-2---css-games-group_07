@@ -74,6 +74,8 @@ main {
 img {
   height:auto;
   width: 20%;
+  border-radius: 15px;
+  padding: 8px 5px;
 }
 
  h1{
