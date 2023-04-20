@@ -138,6 +138,10 @@ h1 {
 
 }
 
+.hidden {
+  display: none;
+}
+
 /*How to section*/
 
 .how-to-play {
