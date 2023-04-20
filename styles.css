@@ -18,6 +18,11 @@ body {
   background-color: var(--background);
 }
 
+#game-body {
+  background: var(--ocean-brown-gradient);
+  min-height: 100vh;
+}
+
 /*endre på og bruk BEM*/
 /*nav*/
 
@@ -171,7 +176,7 @@ h1 {
   bottom: 0;
   width: 60%;
   margin: 0 auto;
-  background-color: rgb(20, 40, 100);
+  background-color: var(--un-blue);
   color: white;
   padding: 5px;
   border-radius: 0.5em;

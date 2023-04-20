@@ -33,7 +33,7 @@ function flipCard() {
       // reset the "flippedCards" array to an empty array
       flippedCards = [];
 
-      // check if all cards are gone
+      // check how many cards are left
       const remainingCards = document.querySelectorAll(
         '.card:not([style="display: none;"])'
       );
