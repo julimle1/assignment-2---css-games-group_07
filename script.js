@@ -55,3 +55,9 @@ function flipCard() {
 
 // add a click event listener to each card that runs the new "flipCard" function when clicked
 cards.forEach((card) => card.addEventListener("click", flipCard));
+
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('card-flipped');
+    });
+  });
